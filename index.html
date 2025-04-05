@@ -27,16 +27,37 @@
             font-weight: bold;
             display: inline-block;
             margin-top: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .cta:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         }
         .features {
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
             padding: 40px 20px;
+            max-width: 1000px;
+            margin: 0 auto;
         }
         .feature {
             margin: 20px;
-            max-width: 300px;
+            padding: 25px;
+            width: 250px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(42, 91, 140, 0.1);
+        }
+        .feature-standout {
+            background: #E1F0FF;
+            border: 2px solid #2A5B8C;
+        }
+        @media (max-width: 768px) {
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
         }
     </style>
 </head>
@@ -52,9 +73,13 @@
             <h3>🚀 Remboursements express</h3>
             <p>Finis les délais interminables.</p>
         </div>
+        <div class="feature feature-standout">
+            <h3>Des frais d'entrée équitables</h3>
+            <p>Une couverture claire, sans mauvaises surprises.</p>
+        </div>
         <div class="feature">
-            <h3>Des frais d'entrée justes</h3>
-            <p>pour une couverture transparente.</p>
+            <h3>🤝 Solidarité 3.0</h3>
+            <p>Une communauté qui protège ses membres.</p>
         </div>
     </div>
 </body>
