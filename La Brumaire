@@ -38,6 +38,11 @@
             margin: 20px;
             max-width: 300px;
         }
+        @media (max-width: 768px) {
+            .hero { padding: 50px 10px; }
+            .features { flex-direction: column; }
+            .cta { padding: 10px 20px; }
+        }
     </style>
 </head>
 <body>
@@ -46,7 +51,13 @@
         <p>Simple. Transparente. Solidaire.</p>
         <a href="mailto:contact@labrumaire.fr" class="cta">Pré-inscription</a>
     </div>
-    
+    <div style="padding: 40px 20px; background: white;">
+        <img 
+            src="hero-image.jpg" 
+            alt="Assurance moderne et transparente" 
+            style="max-width: 100%; border-radius: 10px; box-shadow: 0 10px 30px rgba(42, 91, 140, 0.1);"
+        >
+    </div>
     <div class="features">
         <div class="feature">
             <h3>🚀 Remboursements en 24h</h3>
