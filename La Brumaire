@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>La Brumaire | Assurance 3.0</title>
+    <style>
+        body { 
+            font-family: 'Arial', sans-serif; 
+            text-align: center; 
+            padding: 50px; 
+            background: #f5f9ff;
+            color: #2A5B8C;
+        }
+        h1 { font-size: 2.5em; }
+        .cta { 
+            background: #2A5B8C; 
+            color: white; 
+            padding: 15px 30px; 
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🚀 La Brumaire</h1>
+    <p><em>L'assurance mutuelle réinventée.</em></p>
+    <p>Abonnement • Remboursements automatiques • Transparence</p>
+    <a href="mailto:contact@labrumaire.fr" class="cta">Nous contacter</a>
+</body>
+</html>
