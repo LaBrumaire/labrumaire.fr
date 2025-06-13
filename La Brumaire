@@ -27,15 +27,37 @@
             background: linear-gradient(135deg, #2A5B8C 0%, #1E4A7A 100%);
             color: white;
         }
+        .cta-group {
+            margin-top: 20px;
+        }
+        .cta-secondary {
+            display: inline-block;
+            background: transparent;
+            color: white;
+            padding: 12px 30px;
+            border: 2px solid white;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 10px;
+            transition: background 0.3s, color 0.3s;
+        }
+        .cta-secondary:hover {
+            background: white;
+            color: #2A5B8C;
+        }
         .cta {
+            display: inline-block;
             background: white;
             color: #2A5B8C;
             padding: 12px 30px;
             border-radius: 50px;
             text-decoration: none;
             font-weight: bold;
-            display: inline-block;
-            margin-top: 20px;
+            transition: background 0.3s, color 0.3s;
+        }
+        .cta:hover {
+            background: #e6f0ff;
         }
         .features {
             display: flex;
@@ -57,8 +79,11 @@
             .features {
                 flex-direction: column;
             }
+            .cta-secondary,
             .cta {
                 padding: 10px 20px;
+                display: block;
+                margin: 10px auto 0;
             }
         }
     </style>
@@ -71,7 +96,10 @@
     <div class="hero">
         <h1>L'assurance mutuelle réinventée</h1>
         <p>Simple. Transparente. Solidaire.</p>
-        <a href="connexion.html" class="cta">Se connecter</a>
+        <div class="cta-group">
+            <a href="inscription.html" class="cta-secondary">Créer un compte</a>
+            <a href="connexion.html" class="cta">Se connecter</a>
+        </div>
     </div>
 
     <div style="padding: 40px 20px; background: white;">
@@ -93,4 +121,4 @@
         </div>
     </div>
 </body>
-</html>
+</html>=
